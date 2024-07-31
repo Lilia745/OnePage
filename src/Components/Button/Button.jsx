@@ -1,7 +1,9 @@
 
 function Button(props) {
+    const style = props.style
+    
     return(
-        <button className="btn">Get Started</button>
+        <button className="btn" style={{style}}> Get Started</button>
     );
 }
 

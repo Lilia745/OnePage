@@ -14,6 +14,9 @@ header{
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #deedf8;
+  position: fixed;
+  z-index: 11111;
+  background-color: white;
 }
 .logoDiv>a{
   color: #284279;
@@ -53,4 +56,23 @@ nav{
   height: 100vh;
   background-image: url(../img/img.jpg);
   object-fit: fill;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.main>h1{
+  font-size: 55px;
+  color: #124265;
+
+}
+.main>p{
+  font-size: 20px;
+  color: #909090;
 }
